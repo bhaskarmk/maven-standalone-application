@@ -36,8 +36,7 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-	
+	<repositories>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
@@ -49,8 +48,7 @@
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://65.0.74.109:8081/repository/icicibank-snapshot/</url>
 	    </snapshotRepository>
-	    
-	</distributionManagement>
+    </repositories>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
